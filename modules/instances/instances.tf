@@ -11,7 +11,8 @@ resource "google_compute_instance" "tf-instance-1" {
   }
 
   network_interface {
- network = "default"
+ network = "terraform-vpc"
+    subnetwork = "subnet-01"
   }
 }
 
@@ -28,6 +29,7 @@ resource "google_compute_instance" "tf-instance-2" {
   }
 
   network_interface {
- network = "default"
+ network = "terraform-vpc"
+    subnetwork = "subnet-02"
   }
 }
