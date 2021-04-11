@@ -17,3 +17,6 @@ module "instances" {
 
 }
 
+module "storage" {
+  source     = "./modules/storage"
+}
