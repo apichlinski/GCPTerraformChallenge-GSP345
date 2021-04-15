@@ -3,10 +3,13 @@
 
 ![Automating Infrastructure on Google Cloud with Terraform: Challenge Lab](https://cdn.qwiklabs.com/GMOHykaqmlTHiqEeQXTySaMXYPHeIvaqa2qHEzw6Occ%3D "Automating Infrastructure on Google Cloud with Terraform: Challenge Lab")
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/j1Rl4nei37w/0.jpg)](https://www.youtube.com/watch?v=j1Rl4nei37w&lc=UgwNmb0Bb7ruP62qDZl4AaABAg)
-
-**Time:** 1 hour 30 minutes
+  
+**Time:** 1 hour 30 minutes<br>
+  
 **Cost:** 5 Credits
+  
 **Link:** https://google.qwiklabs.com/quests/159?catalog_rank=%7B%22rank%22%3A1%2C%22num_filters%22%3A0%2C%22has_search%22%3Atrue%7D&search_id=10127304
+  
 
 ### Task 1. Create the configuration files
 
