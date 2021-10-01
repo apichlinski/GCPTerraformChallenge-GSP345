@@ -1,4 +1,8 @@
 terraform {
+  backend "gcs" {
+    bucket  = "<FILL IN PROJECT ID>"
+    prefix  = "terraform/state"
+  }
   required_providers {
     google = {
       source = "hashicorp/google"
@@ -17,3 +21,6 @@ module "instances" {
 
 }
 
+module "storage" {
+  source     = "./modules/storage"
+}
